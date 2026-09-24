@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#080A0F" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="The Arc OS" />
+    <meta name="description" content="The Arc OS • 90-Day Transformation Protocol Operating System" />
+    
+    <title>THE ARC OS • 90-Day Transformation Protocol</title>
+
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="apple-touch-icon" href="./icon-192.png" />
+    <link rel="icon" type="image/png" href="./icon-192.png" />
+    
+    <style>
+      /* Ensure default dark background so it is NEVER blank white */
+      html, body {
+        margin: 0;
+        padding: 0;
+        background-color: #080A0F;
+        color: #F0F6FC;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        padding-top: env(safe-area-inset-top);
+        padding-bottom: env(safe-area-inset-bottom);
+        padding-left: env(safe-area-inset-left);
+        padding-right: env(safe-area-inset-right);
+      }
+      #app-loader {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        color: #F59E0B;
+        font-size: 13px;
+        font-weight: 800;
+        letter-spacing: 0.1em;
+      }
+      .loader-pulse {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        border: 2px solid #F59E0B;
+        border-top-color: transparent;
+        animation: spin 0.8s linear infinite;
+      }
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
+    <script type="module" crossorigin src="./assets/index-CsSZE0Bb.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DLxbcttp.css">
+  </head>
+  <body>
+    <div id="app">
+      <div id="app-loader">
+        <div class="loader-pulse"></div>
+        <div>INITIALIZING THE ARC OS...</div>
+      </div>
+    </div>
+  </body>
+</html>
