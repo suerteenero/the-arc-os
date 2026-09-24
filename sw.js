@@ -3,7 +3,7 @@
  * Guarantees 100% standalone offline execution even after browser cache clears.
  */
 
-const CACHE_NAME = 'arc-os-v2';
+const CACHE_NAME = 'arc-os-v3';
 
 const PRECACHE_SHELL = [
   './',
